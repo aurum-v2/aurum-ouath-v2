@@ -1,6 +1,6 @@
 {
   "name": "@aurum-v2/oauth-v2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Reusable Aurum OAuth (Continue with Aurum) React provider, hooks, and helpers",
   "type": "module",
   "main": "./dist/index.js",
