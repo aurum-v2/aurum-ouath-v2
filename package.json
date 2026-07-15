@@ -1,6 +1,6 @@
 {
-  "name": "@aurum/oauth-v2",
-  "version": "0.1.0",
+  "name": "@mjornales15/oauth-v2",
+  "version": "0.1.1",
   "description": "Reusable Aurum OAuth (Continue with Aurum) React provider, hooks, and helpers",
   "type": "module",
   "main": "./dist/index.js",
@@ -49,5 +49,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjornales15/aurum-ouath-v2.git"
   }
 }

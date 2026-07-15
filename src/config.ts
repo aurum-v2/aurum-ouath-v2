@@ -19,7 +19,7 @@ function trimTrailingSlash(value: string): string {
 function sanitizeStorageKey(key: string): string {
   const cleaned = key.trim().replace(/[^a-zA-Z0-9_-]/g, '_')
   if (!cleaned) {
-    throw new Error('@aurum/oauth-v2: storageKey must be a non-empty string')
+    throw new Error('@mjornales15/oauth-v2: storageKey must be a non-empty string')
   }
   return cleaned
 }
@@ -27,10 +27,10 @@ function sanitizeStorageKey(key: string): string {
 export function resolveConfig(config: AurumAuthConfig): ResolvedAurumAuthConfig {
   const storageKey = sanitizeStorageKey(config.storageKey)
   if (!config.clientId?.trim()) {
-    throw new Error('@aurum/oauth-v2: clientId is required')
+    throw new Error('@mjornales15/oauth-v2: clientId is required')
   }
   if (!config.apiBaseUrl?.trim()) {
-    throw new Error('@aurum/oauth-v2: apiBaseUrl is required')
+    throw new Error('@mjornales15/oauth-v2: apiBaseUrl is required')
   }
 
   return {
